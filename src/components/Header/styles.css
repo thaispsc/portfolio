@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 2rem;
+}
