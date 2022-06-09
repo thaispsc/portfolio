@@ -1,3 +1,4 @@
+import Habilidades from "./components/Habilidades";
 import Inicio from "./components/Inicio";
 import Navbar from "./components/Navbar";
 import SobreMim from "./components/SobreMim";
@@ -8,6 +9,7 @@ function App() {
     <Navbar />
     <Inicio />
     <SobreMim />
+    <Habilidades />
     </div>
   );
 }
