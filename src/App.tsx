@@ -1,11 +1,13 @@
-import Inicio from "./components/Inicio/Inicio";
-import Navbar from "./components/Navbar/Navbar";
+import Inicio from "./components/Inicio";
+import Navbar from "./components/Navbar";
+import SobreMim from "./components/SobreMim";
 
 function App() {
   return (
     <div>
     <Navbar />
     <Inicio />
+    <SobreMim />
     </div>
   );
 }
