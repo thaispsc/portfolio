@@ -1,6 +1,7 @@
 import Habilidades from "./components/Habilidades";
 import Inicio from "./components/Inicio";
 import Navbar from "./components/Navbar";
+import Projetos from "./components/Projetos";
 import SobreMim from "./components/SobreMim";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Inicio />
     <SobreMim />
     <Habilidades />
+    <Projetos />
     </div>
   );
 }
