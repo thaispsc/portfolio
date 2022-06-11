@@ -3,7 +3,6 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Logo from "../../assets/logo.png";
-
 // import { Container } from './styles';
 
 const Navbar: React.FC = () => {
@@ -18,11 +17,11 @@ const Navbar: React.FC = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>Início</li>
-        <li>Sobre mim</li>
-        <li>Minhas habilidades</li>
-        <li>Projetos</li>
-        <li>Contato</li>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre-mim">Sobre mim</a></li>
+        <li><a href="#habilidades"> Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
 
       {/* Hamburger */}

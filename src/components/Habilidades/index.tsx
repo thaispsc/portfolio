@@ -13,7 +13,7 @@ import Github from '../../assets/github.png';
 
 const Habilidades: React.FC = () => {
   return (
-      <div className='bg-[#0a192f] text-gray-300 w-full h-screen'>
+      <div id='habilidades' className='bg-[#0a192f] text-gray-300 w-full h-screen'>
           <div className='max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full'>
               <div>
                   <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Experiências</p>

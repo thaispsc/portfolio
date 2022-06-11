@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { HTMLAttributes } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
-// import { Container } from './styles';
 
 const Inicio: React.FC = () => {
   return (
-      <div className='w-full h-screen bg-[#0a192f]'>
+      <div id="inicio" className='w-full h-screen bg-[#0a192f]'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
           <p className='text-pink-600'>Olá, meu nome é</p>
