@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
       >
         <li className="py-6 text-4xl">Início</li>
         <li className="py-6 text-4xl">Sobre mim</li>
-        <li className="py-6 text-4xl">Minhas habilidades</li>
+        <li className="py-6 text-4xl">Habilidades</li>
         <li className="py-6 text-4xl">Projetos</li>
         <li className="py-6 text-4xl">Contato</li>
       </ul>
